@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=ERA-1SM+
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.4
+Released=2020-10-14 08:27:14
+Downloaded=2026-03-04 18:00:45
+3D=Y
