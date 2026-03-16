@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=AD9959BCPZ
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=57
+Version=3.1
+Released=2015-04-13 16:39:59
+Downloaded=2026-03-14 16:56:43
+3D=Y
