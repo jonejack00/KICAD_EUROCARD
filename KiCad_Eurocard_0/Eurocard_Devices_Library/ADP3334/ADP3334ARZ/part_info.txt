@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=ADP3334ARZ
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2020-04-21 12:48:03
+Downloaded=2026-04-11 19:58:22
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP3334ARZ
+D Linear Voltage Regulators 500 mA adjustable anyCAP LDO
+K
+F https://componentsearchengine.com/Datasheets/2/ADP3334ARZ.pdf
+$ENDCMP
+#
+#End Doc Library

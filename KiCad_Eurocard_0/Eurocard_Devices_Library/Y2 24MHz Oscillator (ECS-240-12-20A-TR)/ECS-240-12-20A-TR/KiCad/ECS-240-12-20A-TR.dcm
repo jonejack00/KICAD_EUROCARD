@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-240-12-20A-TR
+D Crystals CRYSTAL 24.0000MHZ 12PF SMD,CSM-8,+/-50ppm,+/-30ppm,12pF,40 Ohm,Fundamental,-10 C 70 C,2-SMD,0.276" L x 0.197" W (7.00mm x 5.00mm),0.067" (1.70mm)
+K
+F https://www.ecsxtal.com/store/pdf/csm-8r.pdf
+$ENDCMP
+#
+#End Doc Library
