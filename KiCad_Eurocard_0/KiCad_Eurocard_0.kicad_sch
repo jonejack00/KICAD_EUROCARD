@@ -2384,362 +2384,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Audio:IR4301"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 20.955 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IR4301"
-				(at -7.62 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PowIRaudio Integrated Analog Input Class D Audio Amplifier, 160W/4ohm, 80V, PQFN-22"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "integrated class d amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Infineon*PQFN*4EP*6x5mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IR4301_0_1"
-				(rectangle
-					(start -7.62 -15.24)
-					(end 7.62 17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "IR4301_1_1"
-				(pin power_in line
-					(at -10.16 15.24 0)
-					(length 2.54)
-					(name "VAA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "COMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "CSD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -12.7 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(hide yes)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 20.32 270)
-					(length 2.54)
-					(name "VP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -17.78 90)
-					(length 2.54)
-					(name "VN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "CSH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "VB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -6672,12 +6316,6 @@
 		(uuid "a8d35e07-9858-4d0f-817a-e38fa725b7ff")
 	)
 	(junction
-		(at 311.15 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a99737c6-dd19-4acc-b2bc-1504b4bad693")
-	)
-	(junction
 		(at 46.99 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7051,16 +6689,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 193.04) (xy 297.18 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1085794e-8ea6-4604-a346-27a2cd5fa2c8")
-	)
-	(wire
-		(pts
 			(xy 306.07 367.03) (xy 306.07 368.3)
 		)
 		(stroke
@@ -7311,16 +6939,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 176.53) (xy 256.54 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ac5fe2-5198-45b5-921f-ac7d56c6b818")
-	)
-	(wire
-		(pts
 			(xy 459.74 279.4) (xy 459.74 278.13)
 		)
 		(stroke
@@ -7491,16 +7109,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 163.83) (xy 331.47 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3183de1f-17fc-4530-af71-395232f47397")
-	)
-	(wire
-		(pts
 			(xy 115.57 107.95) (xy 128.27 107.95)
 		)
 		(stroke
@@ -7658,16 +7266,6 @@
 			(type default)
 		)
 		(uuid "35c29019-8574-42f1-9394-25c0a51f596b")
-	)
-	(wire
-		(pts
-			(xy 256.54 176.53) (xy 256.54 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e5665b-49cc-4c95-81c0-52c8bc1a83f6")
 	)
 	(wire
 		(pts
@@ -7958,16 +7556,6 @@
 			(type default)
 		)
 		(uuid "4acda229-88e5-46b5-88ff-9cc3c879001e")
-	)
-	(wire
-		(pts
-			(xy 256.54 195.58) (xy 297.18 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c43c262-aec8-41dd-aceb-493b634449eb")
 	)
 	(wire
 		(pts
@@ -8418,16 +8006,6 @@
 			(type default)
 		)
 		(uuid "68f2226a-1d0b-4299-9a71-918d1c69d60a")
-	)
-	(wire
-		(pts
-			(xy 311.15 163.83) (xy 331.47 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6997e2cf-d79f-4439-aa86-d9e9d1daec6f")
 	)
 	(wire
 		(pts
@@ -9041,16 +8619,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 163.83) (xy 311.15 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9be11248-1797-4e3e-8faf-af876b5d5d30")
-	)
-	(wire
-		(pts
 			(xy 485.14 22.86) (xy 499.11 22.86)
 		)
 		(stroke
@@ -9338,16 +8906,6 @@
 			(type default)
 		)
 		(uuid "afddbc4d-cd9b-4cd6-a945-25c5133731af")
-	)
-	(wire
-		(pts
-			(xy 318.77 180.34) (xy 331.47 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a07d42-5e1d-4711-8878-18f5e81d3f1c")
 	)
 	(wire
 		(pts
@@ -24189,116 +23747,6 @@
 			(project "KiCad_Eurocard_0"
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Audio:IR4301")
-		(at 306.07 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c0cc1b0-d201-44b2-b931-1b9669bf519f")
-		(property "Reference" "U3"
-			(at 313.2933 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IR4301"
-			(at 313.2933 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
-			(at 306.07 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819"
-			(at 306.07 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PowIRaudio Integrated Analog Input Class D Audio Amplifier, 160W/4ohm, 80V, PQFN-22"
-			(at 306.07 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7a5bbd2f-10fb-4454-b2e6-697704345b13")
-		)
-		(pin "1"
-			(uuid "b3aff9e4-c143-4069-a8cf-98ecc74d5640")
-		)
-		(pin "5"
-			(uuid "c4980a02-370b-4675-9650-1f3d2c774958")
-		)
-		(pin "6"
-			(uuid "8a9db1ca-8b9c-44e7-b30f-5d1c48cb5bf8")
-		)
-		(pin "4"
-			(uuid "95d549a6-345b-4221-b1cd-91bd031ed8a4")
-		)
-		(pin "2"
-			(uuid "5a4ef83a-c6ce-44e3-912c-ad577c721c58")
-		)
-		(pin "14"
-			(uuid "cdc499d9-7921-4abc-854e-a71e6b7823bf")
-		)
-		(pin "8"
-			(uuid "8ecaeb53-b98e-471b-a3c2-ad356c45e938")
-		)
-		(pin "13"
-			(uuid "44092850-e694-47d6-b112-57602b1a0d9d")
-		)
-		(pin "11"
-			(uuid "8233e93a-9387-4036-8e5a-5d61719743d5")
-		)
-		(pin "12"
-			(uuid "5f8e60a3-59c9-435e-87fa-d988af0d1cc0")
-		)
-		(pin "7"
-			(uuid "8970e02b-57cf-482a-b811-c4ed33dd22f5")
-		)
-		(pin "15"
-			(uuid "3709da00-a1a5-4aa4-951e-7c372cfe9480")
-		)
-		(pin "9"
-			(uuid "cd35d3af-e650-4b12-8ea2-9f881863260e")
-		)
-		(pin "10"
-			(uuid "8d28bece-f980-45c2-a78c-db0eb2dce629")
-		)
-		(instances
-			(project "KiCad_Eurocard_0"
-				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
-					(reference "U3")
 					(unit 1)
 				)
 			)
