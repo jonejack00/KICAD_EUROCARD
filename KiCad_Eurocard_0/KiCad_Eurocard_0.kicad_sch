@@ -12467,7 +12467,7 @@
 	)
 	(global_label "1.8V Source"
 		(shape input)
-		(at 346.71 256.54 0)
+		(at 347.98 256.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12477,7 +12477,7 @@
 		)
 		(uuid "ff593dda-092e-4cd1-b404-1926cf13b033")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.2461 256.54 0)
+			(at 362.5161 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
