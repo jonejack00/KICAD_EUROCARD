@@ -7109,16 +7109,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 163.83) (xy 331.47 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3183de1f-17fc-4530-af71-395232f47397")
-	)
-	(wire
-		(pts
 			(xy 115.57 107.95) (xy 128.27 107.95)
 		)
 		(stroke
@@ -8629,16 +8619,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 163.83) (xy 331.47 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9be11248-1797-4e3e-8faf-af876b5d5d30")
-	)
-	(wire
-		(pts
 			(xy 485.14 22.86) (xy 499.11 22.86)
 		)
 		(stroke
@@ -8926,16 +8906,6 @@
 			(type default)
 		)
 		(uuid "afddbc4d-cd9b-4cd6-a945-25c5133731af")
-	)
-	(wire
-		(pts
-			(xy 318.77 180.34) (xy 331.47 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a07d42-5e1d-4711-8878-18f5e81d3f1c")
 	)
 	(wire
 		(pts
@@ -10823,28 +10793,6 @@
 			)
 		)
 	)
-	(global_label "Vout (3.3V)"
-		(shape input)
-		(at 321.31 217.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "58341e9c-2b5b-4f67-a749-daf4ef822298")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.1809 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "A2 OUT"
 		(shape input)
 		(at 172.72 92.71 180)
@@ -12497,7 +12445,7 @@
 	)
 	(global_label "1.8V Source"
 		(shape input)
-		(at 347.98 256.54 0)
+		(at 346.71 256.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12507,7 +12455,7 @@
 		)
 		(uuid "ff593dda-092e-4cd1-b404-1926cf13b033")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.5161 256.54 0)
+			(at 361.2461 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,7 +12681,7 @@
 			(uuid "dc38252a-53e0-4470-8d97-96f67d28f822")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "IC1")
 					(unit 1)
@@ -14176,7 +14124,7 @@
 			(uuid "ef940b18-02f7-4e21-a0e1-75a9f5840c85")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "SW1")
 					(unit 1)
@@ -14936,7 +14884,7 @@
 			(uuid "53e3c599-d8dc-40ce-8a5e-e61d01076860")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "#PWR06")
 					(unit 1)
@@ -15138,7 +15086,7 @@
 			(uuid "25d578de-95b2-45ef-819f-19922b629ee3")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "R39")
 					(unit 1)
@@ -15758,7 +15706,7 @@
 			(uuid "ea2aca35-a95a-411f-aec7-c1cc974b287c")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "J9")
 					(unit 1)
@@ -17660,7 +17608,7 @@
 			(uuid "55e6863a-2732-4a5b-ac02-3f3ac9a1bfb4")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "J1")
 					(unit 1)
@@ -19479,7 +19427,7 @@
 			(uuid "07c2e8a3-e997-4de4-ae7f-45058d5297c8")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "IC2")
 					(unit 1)
@@ -20419,7 +20367,7 @@
 			(uuid "5729cfbc-81c6-4391-971f-352e6e68cba9")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "#PWR035")
 					(unit 1)
@@ -21732,7 +21680,7 @@
 			(uuid "474e20f4-efd1-4a9b-9529-c8350b8d16fd")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "IC2")
 					(unit 1)
@@ -21940,7 +21888,7 @@
 			(uuid "15909c1b-1747-4817-8104-a9612bc88c33")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "D1")
 					(unit 1)
@@ -23573,7 +23521,7 @@
 			(uuid "a3478279-a996-4e89-a882-23da808404d3")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "Y1")
 					(unit 1)
@@ -26467,7 +26415,7 @@
 			(uuid "a5a638f7-1037-4865-8f10-507663be1927")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "S1")
 					(unit 1)
@@ -28843,7 +28791,7 @@
 			(uuid "074e1710-3bfa-482a-8c79-fa4e3292ea6c")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "R5")
 					(unit 1)
@@ -29045,7 +28993,7 @@
 			(uuid "454ab83f-b213-420d-8b29-184fc0871f99")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "C6")
 					(unit 1)
@@ -29742,7 +29690,7 @@
 			(uuid "fa13d5f6-7e40-46b0-aad7-3cb836881747")
 		)
 		(instances
-			(project "KiCad_Eurocard_0"
+			(project ""
 				(path "/9cb3cf89-0e72-4eef-94e8-d924ebdf2eea"
 					(reference "U4")
 					(unit 1)
