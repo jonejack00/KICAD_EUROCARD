@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=GVA-81+
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2019-04-28 11:13:24
+Downloaded=2026-04-20 21:01:34
+3D=Y
